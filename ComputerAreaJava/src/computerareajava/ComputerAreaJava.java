@@ -7,12 +7,12 @@ public class ComputerAreaJava {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int seconds;
+        int inputseconds;
         System.out.println("enter your second");
-         seconds = scanner.nextInt();
-        int minutes = seconds / 60;
+         inputseconds = scanner.nextInt();
+        int minutes = inputseconds / 60;
 
-        int second = seconds % 60;
+        int second = inputseconds % 60;
 
         System.out.println(minutes + " Minutes " + second + " Second");
 
@@ -43,6 +43,7 @@ public class ComputerAreaJava {
               
               Scanner masud = new Scanner(System.in);
               
+              int seconds;
               System.out.println("enter your second");
               
               int seconds = scanner.nextInt();
