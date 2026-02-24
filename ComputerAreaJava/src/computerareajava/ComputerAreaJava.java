@@ -40,15 +40,15 @@ public class ComputerAreaJava {
                 //        System.out.println("Area of a circle is" + area);
     
              
-              
-              Scanner masud = new Scanner(System.in);
-              
-              int seconds;
-              System.out.println("enter your second");
-              
-              int seconds = scanner.nextInt();
-              
-              int minut
+//              
+//              Scanner masud = new Scanner(System.in);
+//              
+//              int seconds;
+//              System.out.println("enter your second");
+//              
+//              int seconds = scanner.nextInt();
+//              
+//              int minut
               
                 
                 
