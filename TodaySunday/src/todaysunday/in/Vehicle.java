@@ -9,8 +9,6 @@ public class Vehicle {
 
     public Vehicle() {
     }
-    
-    
 
     public Vehicle(int regularPrice) {
         this.regularPrice = regularPrice;
