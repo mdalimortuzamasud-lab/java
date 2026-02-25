@@ -1,6 +1,9 @@
 
 package pose;
 
+import pose.model.User;
+import poseDao.UserDao;
+
 /**
  *
  * @author Admin
@@ -11,7 +14,11 @@ public class POSE {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       User u= new User("masud", "1234");
+        UserDao dao=new UserDao();
+        dao.saveUser(u);
+        
+        
     }
     
 }
