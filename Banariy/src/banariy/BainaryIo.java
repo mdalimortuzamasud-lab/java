@@ -29,7 +29,7 @@ public class BainaryIo {
         }
         
         try {
-            FileInputStream input=new FileInputStream("C:\\Users\\Admin\\Desktop\\masud.txt");
+            FileInputStream input=new FileInputStream("C:\\Users\\Admin\\Desktop\\masud (2).dat");
             
             int value;
             while ((value=input.read())!=-1){                
