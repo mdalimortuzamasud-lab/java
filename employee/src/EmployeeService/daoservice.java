@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Admin
  */
-public interface daoservice <E>{
+public interface Daoservice <E>{
     void Save (E e);
     List<E> findall();
     void update(int id);
