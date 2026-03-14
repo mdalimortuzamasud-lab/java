@@ -23,7 +23,7 @@ public  class Employeedao implements Daoservice<employee e>{
     }
 
     @Override
-    public void Save(employee e) {
+    public void Save (employee e) {
         try {
             Sql="insert into employee(name,salary,email,cell)values(?,?,?,?,?)";
             ps=db.getcon().prepareStatement(Sql);
