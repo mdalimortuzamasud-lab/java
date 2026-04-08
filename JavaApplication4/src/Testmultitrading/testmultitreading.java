@@ -20,7 +20,7 @@ public class testmultitreading {
         t3.start();
         
      
-        System.out.println("");
+        
         
     }
 }
