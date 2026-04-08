@@ -2,33 +2,30 @@
 package testvehicle;
 
 
-public class Truck extends vehicle{
+
+public class Truck extends vahicle{
     int Weight;
 
     public Truck(int Weight) {
         this.Weight = Weight;
     }
 
-    public Truck(int Weight, double regularPrice) {
-        super(regularPrice);
+    public Truck(int Weight, double regularpice) {
+        super(regularpice);
         this.Weight = Weight;
     }
 
-    
- 
-
-    
     @Override
-    double getSalePrice() {
+    public double getsaleprice() {
        if(Weight>2000){
-      return regularPrice-(regularPrice*.10);
-      
-    }else{
-    return regularPrice;
-     }
+       return regularpice-(regularpice*.10);
+       }
+        return regularpice;
+    
+    }
 
     
     
-    } 
+    
     
 }
